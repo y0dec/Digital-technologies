@@ -14,7 +14,7 @@ matrix = input_df.values
 print(input_df.head())
 print('...')
 for i in range(60282, 60287):
-    print(f'{i}\t\t\t\t\t{matrix[i][0]}')
+    print(f'{i}{matrix[i][0]}')
 
 znach = matrix[0:1280]
 vremy = np.arange(0, len(znach), 1)
